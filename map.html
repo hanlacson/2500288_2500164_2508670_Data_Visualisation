@@ -32,7 +32,7 @@
 </head>
 <body>
     <div id="map"></div>
-    <div id="sidebar" style="display:none; position:absolute; right:0; top:0; width:300px; height:100vh; background:white; padding:10px;"></div>
+    
     <script>
         // Initialising the map
 
@@ -49,26 +49,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const marker = L.marker([51.5, -0.09]).addTo(map)
 .bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
 
-let sidebar = document.getElementById("sidebar");
 
-function ShowSidebar(e) {
-    sidebar.innerHTML = e.target.options.sidebarText;
-    sidebar.style.display = "block";
-}
-
-function hideSidebar() {
-    sidebar.style.display = "none";
-}
-
-const interactiveCircle = L.circle([51.482576, -0.08176], {
-    color: 'green',
-    fillColor: 'green',
-    fillOpacity: 0.5,
-    radius: 500,
-    sidebarText: "<div>Hello from the sidebar!</div>"
-}).addTo(map).on('click', ShowSidebar);
-
-sidebar.onclick = hideSidebar;
     </script>
 </body>
 </html>
