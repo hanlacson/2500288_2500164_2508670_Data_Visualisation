@@ -37,7 +37,7 @@
         // Initialising the map
 
 // Creates a new map object and sets starting point in London
-const map = L.map('map').setView([51.505, -0.09], 13);
+const map = L.map('map').setView([51.5227, -0.1564], 13);
 
 // this makes the map run OpenStreetMap
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -46,7 +46,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 //adds a marker
-const marker = L.marker([51.5, -0.09]).addTo(map)
+const marker = L.marker([51.5227, -0.1564]).addTo(map)
 .bindPopup('<b>Hello peeps!</b><br />I am just a placeholder for now.').openPopup();
 
 
