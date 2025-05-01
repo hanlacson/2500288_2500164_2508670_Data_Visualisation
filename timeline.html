@@ -3,14 +3,131 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Timeline</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Vertical Timeline</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .timeline-container {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    .timeline-container::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #555;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -2px;
+    }
+
+    .timeline-event {
+      padding: 20px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+
+    .timeline-event::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -10px;
+      background-color: white;
+      border: 4px solid #FF6F61;
+      top: 20px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .left {
+      left: 0;
+    }
+
+    .right {
+      left: 50%;
+    }
+
+    .right::after {
+      left: -10px;
+    }
+
+    .timeline-content {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      position: relative;
+      border-left: 5px solid #FF6F61;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    @media screen and (max-width: 600px) {
+      .timeline-event {
+        width: 100%;
+        left: 0 !important;
+        margin-left: 0;
+      }
+
+      .timeline-event::after {
+        left: calc(50% - 10px);
+      }
+    }
+  </style>
 </head>
 <body>
+  <h1 style="text-align:center;">My Timeline</h1>
   <div class="timeline-container" id="timeline">
-    <!-- Timeline events will be inserted here -->
+    <!-- Events will be injected here -->
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    const timelineData = [
+      {
+        date: '2020',
+        title: 'Started University',
+        description: 'Began my degree in Digital Media at Royal Holloway.'
+      },
+      {
+        date: '2021',
+        title: 'First Music Project',
+        description: 'Worked on my first music production using Ableton Live.'
+      },
+      {
+        date: '2023',
+        title: 'Internship',
+        description: 'Completed a summer internship at a London media studio.'
+      },
+      {
+        date: '2025',
+        title: 'Graduation',
+        description: 'Graduated and ready to take on the media industry!'
+      }
+    ];
+
+    const timelineContainer = document.getElementById('timeline');
+
+    timelineData.forEach((event, index) => {
+      const side = index % 2 === 0 ? 'left' : 'right';
+      const eventHTML = `
+        <div class="timeline-event ${side}">
+          <div class="timeline-content">
+            <h3>${event.date} - ${event.title}</h3>
+            <p>${event.description}</p>
+          </div>
+        </div>
+      `;
+      timelineContainer.innerHTML += eventHTML;
+    });
+  </script>
 </body>
 </html>
