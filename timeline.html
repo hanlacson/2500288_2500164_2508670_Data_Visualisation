@@ -7,9 +7,16 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      background-image: url("visuals/timelinebackground.png");
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 40px 20px;
+      min-height: 100vh;
     }
 
     .timeline-container {
@@ -71,6 +78,12 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
     @media screen and (max-width: 600px) {
       .timeline-event {
         width: 100%;
@@ -85,9 +98,11 @@
   </style>
 </head>
 <body>
-  <h1 style="text-align:center;">My Timeline</h1>
-  <div class="timeline-container" id="timeline">
-    <!-- Events will be injected here -->
+  <div class="overlay">
+    <h1>My Timeline</h1>
+    <div class="timeline-container" id="timeline">
+      <!-- Timeline items injected by JS -->
+    </div>
   </div>
 
   <script>
