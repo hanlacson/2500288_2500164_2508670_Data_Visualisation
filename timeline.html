@@ -10,7 +10,7 @@
     }
 
     body {
-        background-image: url("visuals/timelinebackgroundpage.png");
+        background-image: url("visuals/timelinebackground.png");
       background-size: cover;
       font-family: Helvetica, sans-serif;
       margin: 0;
@@ -132,19 +132,18 @@
   position: fixed;
   top: 20px;
   left: 20px;
-  text-decoration: none;
-  font-size: 32px; /* Increased from 18px */
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 15px 35px; /* Increased padding */
-  border: 3px solid white; /* Thicker border */
-  border-radius: 10px;
   z-index: 1000;
-  transition: background-color 0.3s ease;
 }
 
-.back-btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.back-img {
+  width: 60px; /* Adjust as needed */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.back-img:hover {
+  transform: scale(1.1);
 }
 
 
@@ -154,8 +153,9 @@
 <body>
 
   <a href="introduction.html" class="back-btn">
-    ← Back
+    <img src="visuals/backbutton.png" alt="Back" class="back-img">
   </a>
+  
   
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
