@@ -129,21 +129,34 @@
       }
 
       .back-btn {
-        width: 20px !important; 
-        height: 10px !important; 
-        display: block; 
-        border: 2px solid grey;
-        border-radius: 6px; 
-      }
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 32px; /* Increased from 18px */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 35px; /* Increased padding */
+  border: 3px solid white; /* Thicker border */
+  border-radius: 10px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 
     }
   </style>
 </head>
 <body>
-  <a href="introduction.html">
-    <img src="visuals/backbutton.png" class="back-btn">
-  </a>
 
+  <a href="introduction.html" class="back-btn">
+    ← Back
+  </a>
+  
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
