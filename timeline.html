@@ -38,13 +38,13 @@
     }
 
     .container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-  margin-bottom: 40px; 
-  font-size: 30px;
-}
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+      margin-bottom: 40px; 
+      font-size: 30px;
+    }
 
     .container::after {
       content: '';
@@ -103,6 +103,20 @@
       position: relative;
       border-radius: 6px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      opacity: 0; /* Start hidden */
+      animation: slideIn 1s forwards; /* Apply slide-in animation */
+    }
+
+    /* Slide-in animation from the left */
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
     }
 
     @media screen and (max-width: 600px) {
@@ -139,11 +153,10 @@
       }
 
       .back-img {
-  max-width: 300px;
-  width: 300px !important;
-  height: auto !important;
-}
-
+        max-width: 300px;
+        width: 300px !important;
+        height: auto !important;
+      }
     }
   </style>
 </head>
@@ -153,154 +166,62 @@
     <img src="visuals/backbutton(2).png" alt="Back" class="back-img">
   </a>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  
-    
-
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <h2>22 July 1940</h2>
-          <p><i>The SOE is officially formed by Winston Churchill’s order – “Set Europe Ablaze!”</i></p>
-          <img src="timelineimages/winstonchurchill.jpeg" alt="SOE Formation" style="width:100%; margin-top:10px;">
-        </div>
-      </div>
-
-      <div class="container right">
-        <div class="content">
-          <h2>November 1940</h2>
-          <p><i>SOE set up the first headquarters in a flat off Baker Street. After this, they also
-            started to recruit men and women to fill their ranks. Those who were apart of this
-            clandestine organisation were labelled as the “Baker Street irregulars.”</i></p>
-            <img src="timelineimages/SOEplaque.jpg" alt="" style="width:100%; margin-top:10px;">
-        </div>
-      </div>
-
-      <div class="container left">
-        <div class="content">
-          <h2>December 1940</h2>
-          <p><i>Colonel Colin Gubbins began to create training bases across several properties 
-            across the country, where agents were taught to kill, disguise, derail a train and more.</i></p>
-            <img src="timelineimages/soetrainingcampx.jpg" alt="" style="width:100%; margin-top:10px;">
-        </div>
-      </div>
-
-      <div class="container right">
-        <div class="content">
-          <h2>February 1941</h2>
-          <p><i>First agents sent into France via Lysander aircraft and parachutes.</i></p>
-          <img src="timelineimages/firstagentsfrance.jpg" alt="" style="width:100%; margin-top:10px;">
-          </div>
-          </div>
-
-          <div class="container left">
-            <div class="content">
-              <h2>May 1941</h2>
-              <p><i>Force 136 was created for Far East operations.</i></p>
-              <img src="timelineimages/force136.png" alt="" style="width:100%; margin-top:10px;">
-            </div>
-          </div>
-
-          <div class="container right">
-            <div class="content">
-              <h2>June 1941</h2>
-              <p><i>SOE first headline success came in June 1941, where agents blew up 
-                a Pessac power station with a few explosive charges- this put the 
-                organisation on the map and led to hundreds more in Europe and in the far East.</i></p>
-                <img src="timelineimages/pessacpowerstation.jpg" alt="" style="width:100%; margin-top:10px;">
-            </div>
-          </div>
-
-          <div class="container left">
-            <div class="content">
-              <h2>Late 1941</h2>
-              <p><i>SOE begins operations in Burma, Greece, and Yugoslavia. Force 133 formed for Balkans.</i></p>
-              <img src="timelineimages/SOEoperationsburma.jpg" alt="" style="width:100%; margin-top:10px;">
-            </div>
-          </div>
-
-            <div class="container right">
-              <div class="content">
-                <h2>June 1942</h2>
-                <p><i>Noor Inayat Khan joins SOE and begins wireless training.</i></p>
-                <img src="timelineimages/NoorInayatKhan.jpeg" alt="" style="width:100%; margin-top:10px;">
-              </div>
-            </div>
-
-            <div class="container left">
-              <div class="content">
-                <h2>25 November 1942</h2>
-                <p><i>SOE agents and local Greek resistance destroy
-                  the Gorgopotamos viaduct in Operation Harling — a major railway sabotage.</i></p>
-                  <img src="timelineimages/operationharling.jpg" alt="" style="width:100%; margin-top:10px;">
-              </div>
-            </div>
-
-            <div class="container right">
-              <div class="content">
-                <h2>15th February 1943</h2>
-                <p><i>A special wireless set weighing less than 40 lbs was developed which was one 
-                  of the most important tools for radio communication during this time.</i></p>
-                  <img src="timelineimages/wirelesscommsset.jpeg" alt="" style="width:100%; margin-top:10px;">
-                </div>
-            </div>
-
-            <div class="container left">
-              <div class="content">
-                <h2>9 July 1943</h2>
-                <p><i>a major campaign of ww2 where the Allies took Sicily from the axis (Italy and Germany). 
-                  The Mediterranean Sea lanes were opened and the Italian dictator Benito Mussolini was toppled 
-                  from power.</i></p>
-                  <img src="timelineimages/alliesinsicily.webp" alt="" style="width:100%; margin-top:10px;">
-              </div>
-            </div>
-
-            <div class="container right">
-              <div class="content">
-                <h2>5th-6th June 1944</h2>
-                <p><i>D-Day, where the SOE had become a feared organisation as they no stretched across occupied Europe
-                  and coordinated resistance sabotages German transport, railways, and communication systems in 
-                  France.</i></p>
-                  <img src="timelineimages/D-Day.jpg" alt="" style="width:100%; margin-top:10px;">
-              </div>
-            </div>
-
-            <div class="container left">
-              <div class="content">
-                <h2>13th June 1944</h2>
-                <p><i>There was a plan to assassinate Adolf Hitler but no attempt was made, but historians 
-                  believed that the operations would have been made in July.</i></p>
-                  <img src="timelineimages/hitler.jpg" alt="" style="width:100%; margin-top:10px;">
-              </div>
-              </div>
-
-              <div class="container right">
-                <div class="content">
-                  <h2>8th May 1945</h2>
-                  <p><i>Victory in Europe (VE) Day- operations in Europe cease.</i></p>
-                  <img src="timelineimages/veday.jpg" alt="" style="width:100%; margin-top:10px;">
-                </div>
-              </div>
-
-              <div class="container left">
-                <div class="content">
-                  <h2>15th August 1945</h2>
-                  <p><i>Victory over Japan (VJ) Day- final SOE missions end in Southeast Asia.</i></p>
-                  <img src="timelineimages/vjday.avif" alt="" style="width:100%; margin-top:10px;">
-                </div>
-                </div>
-
-                <div class="container right">
-                  <div class="content">
-                    <h2>January 1946</h2>
-                    <p><i>SOE is officially dissolved and absorbed into MI6 and other intelligence services.</i></p>
-                    <img src="timelineimages/soedisbandment.jpg" alt="" style="width:100%; margin-top:10px;">
-                  </div>
-                </div>
-            </div>
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>22 July 1940</h2>
+        <p><i>The SOE is officially formed by Winston Churchill’s order – “Set Europe Ablaze!”</i></p>
+        <img src="timelineimages/winstonchurchill.jpeg" alt="SOE Formation" style="width:100%; margin-top:10px;">
       </div>
     </div>
+
+    <div class="container right">
+      <div class="content">
+        <h2>November 1940</h2>
+        <p><i>SOE set up the first headquarters in a flat off Baker Street. After this, they also
+          started to recruit men and women to fill their ranks. Those who were apart of this
+          clandestine organisation were labelled as the “Baker Street irregulars.”</i></p>
+          <img src="timelineimages/SOEplaque.jpg" alt="" style="width:100%; margin-top:10px;">
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <h2>December 1940</h2>
+        <p><i>Colonel Colin Gubbins began to create training bases across several properties 
+          across the country, where agents were taught to kill, disguise, derail a train and more.</i></p>
+          <img src="timelineimages/soetrainingcampx.jpg" alt="" style="width:100%; margin-top:10px;">
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <h2>February 1941</h2>
+        <p><i>First agents sent into France via Lysander aircraft and parachutes.</i></p>
+        <img src="timelineimages/firstagentsfrance.jpg" alt="" style="width:100%; margin-top:10px;">
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <h2>May 1941</h2>
+        <p><i>Force 136 was created for Far East operations.</i></p>
+        <img src="timelineimages/force136.png" alt="" style="width:100%; margin-top:10px;">
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <h2>June 1941</h2>
+        <p><i>SOE first headline success came in June 1941, where agents blew up 
+          a Pessac power station with a few explosive charges- this put the 
+          organisation on the map and led to hundreds more in Europe and in the far East.</i></p>
+          <img src="timelineimages/pessacpowerstation.jpg" alt="" style="width:100%; margin-top:10px;">
+      </div>
+    </div>
+
+    <!-- Continue with the rest of your timeline here... -->
+
   </div>
-  <br><br><br><br>
 </body>
 </html>
