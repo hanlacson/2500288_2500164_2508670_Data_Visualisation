@@ -1,0 +1,27 @@
+[
+    {
+        "lat": 46.2276,
+        "lng": 2.2137,
+        "popup": "<b>France:</b> <br>Number of agents: 470 with 118 being lost<br>\nDate of operation started: July 1940\n<br>Led by: Colonel Maurice Buckmaster\n<br>Operations: SOE agents engaged in sabotage, subversion and fostering resistance movements to weaken the German War effort. One notable operation was the Jedburgh operation where three-man teams were dropped into France to support the French Resistance before and during D-Day.<br>\nNumber of resistance networks: over 60 were help established, including the Francs-Tireurs et Partisans and Combat.<br>\nDamage: Involved in various sabotage operations, including destroying lines, engines and other infrastructure. One successful example was Ben Cowburn’s mission to destroy 6 railway engines at Troyes."
+    },
+    {
+        "lat": 39.0742,
+        "lng": 21.8243,
+        "popup": "<b>Greece:</b><br>Number of agents: over 600 offices and other ranks<br>Date of operation started: early 1941<br>Led by: Force 133, Brigadier Eddie Myers and Colonel Chris Woodhouse<br>Operations: Operation Harling (1942) which is one of SOE’s most famous missions, where a team of British and Greek partisans blew up the Gorgopotamos viaduct, cutting off German supply lines to North Africa.<br>Number of resistance networks: SOE supported multiple resistance networks, including ELAS (Greek People's Liberation Army) and EDES (National Republican Greek League).<br>Damage: SOE’s operations significantly disrupted German logistics in Greece, including the destruction of railways, bridges, and military supply lines, with operations delaying German reinforcements to other fronts."
+    },
+    { "lat": 41.1533, "lng": 21.8243, "popup": "Albania" },
+    { "lat": 56.2639, "lng": 9.5018, "popup": "Denmark" },
+    { "lat": 21.9162, "lng": 95.9560, "popup": "Burma" },
+    { "lat": 50.5039, "lng": 4.4699, "popup": "Belgium" },
+    { "lat": 36.944975, "lng": -4.409041, "popup": "Yugoslavia" },
+    { "lat": 52.1326, "lng": 5.2913, "popup": "Netherlands" },
+    { "lat": 51.9194, "lng": 19.1451, "popup": "Poland" },
+    { "lat": 35.8617, "lng": 104.1954, "popup": "China" },
+    { "lat": 20.5937, "lng": 78.9629, "popup": "India" },
+    { "lat": 51.1657, "lng": 10.4515, "popup": "Germany" },
+    { "lat": 41.8719, "lng": 12.5674, "popup": "Italy" },
+    { "lat": 60.4720, "lng": 8.4689, "popup": "Norway" },
+    { "lat": 4.2105, "lng": 101.9758, "popup": "Malay" },
+    { "lat": 15.8700, "lng": 100.9925, "popup": "Thailand" },
+    { "lat": -0.6000, "lng": 113.7, "popup": "Dutch East Indies" }
+]
