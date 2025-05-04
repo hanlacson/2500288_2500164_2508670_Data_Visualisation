@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The British Special Operations Executive in WW2</title>
-        <style>
-            body {
-                background-image: url("visuals/codingbackground.png");
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-attachment: scroll;
-                text-align: center;
-                font-family: 'Times New Roman', Times, serif, sans-serif;
-            }
+<head>
+    <title>The British Special Operations Executive in WW2</title>
+    <style>
+        body {
+            background-image: url("visuals/codingbackground.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
 
-            a {
-                font-size: 50px;
-                color: black;
-                text-decoration: none;
-            }
+        a {
+            font-size: 50px;
+            color: black;
+            text-decoration: none;
+        }
 
-            button {
-                padding: 30px 45px;
-                font-size: 35px;
-                font-family: 'Times New Roman', Times, serif, sans-serif;
-                margin: 30px;
-                border: none;
-                cursor: pointer;
-                background-color: white;
-                border-radius: 10px;
-            }
+        button {
+            padding: 30px 45px;
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 30px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            border-radius: 10px;
+        }
 
-            button:hover {
-                background-color: #ddd;
-            }
+        button:hover {
+            background-color: #ddd;
+        }
 
-            p {
-                font-size: 40px; /* Increased font size */
-                width: 90%; /* Limits width to keep text readable */
-                margin: auto; /* Centers the paragraph */
-                text-align: center;
-                line-height: 1.6; /* Improves readability */
-                color: rgb(0, 0, 0); /* Adjust color if needed for visibility */
-                padding: 20px;
-                border-radius: 10px;
-            }
+        p {
+            font-size: 40px;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            line-height: 1.6;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 10px;
+        }
 
-            .relavance {
-                font-size: 32px; /* Increased font size */
-                width: 90%; /* Limits width to keep text readable */
-                margin: auto; /* Centers the paragraph */
-                text-align: center !important;
-                line-height: 140%; /* Improves readability */
-                color: rgb(0, 0, 0); /* Adjust color if needed for visibility */
-                padding: 10px;
-                border-radius: 10px;
-                column-count: 2; 
-                column-gap: 1588px;
-                column-width: 40px;
-            }
-        </style>
-    </head>
+        .relavance {
+            font-size: 32px;
+            width: 90%;
+            margin: auto;
+            text-align: center !important;
+            line-height: 140%;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 10px;
+            column-count: 2; 
+            column-gap: 1588px;
+            column-width: 40px;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 2s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        .fade-in-delay {
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+
 <body>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br>
-    <br><br><br><br><br>
-    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
     <button><a href="map1.html">World Map</a></button>
     <button><a href="timeline.html">Timeline</a></button>
     <button><a href="profile.html">Agents and Operations</a></button>
     <br>
 
-    <p> <b>
+    <p class="fade-in"><b>
         The Special Operations Executive, also known as the SOE, was a British secret organization established in July 1940 
         to support resistance movements in Nazi-occupied Europe and further taken territories. Created under the orders of 
         Prime Minister Winston Churchill, the SOE was missioned with waging unconventional warfare behind enemy lines. Its 
@@ -91,33 +105,34 @@
         shifted towards more traditional military and intelligence structures. However, its legacy lived on, influencing modern 
         special forces and intelligence agencies such as MI6, the SAS, and the CIA. Many of its veterans went on to serve in these 
         organizations, and the tactics pioneered by the SOE continue to shape modern covert operations. 
-    </b>
-    </p>
-    <br><br><br><br> <br><br><br><br> <br><br><br><br><br><br><br>
+    </b></p>
 
-    <div class="relavance"> <b>
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="relavance fade-in fade-in-delay"><b>
         We’ve all heard about the Dunkirk evacuation, the story of Anne Frank,
-         and the Six Triple Eight Battalion, but what about the Special
-          Operations Executive? During World War II, the SOE carried out some of the 
-          most daring and covert missions in British history. Tasked with sabotage, espionage, and 
-          aiding resistance movements in Nazi-occupied territories, these sgents worked behind 
-          enemy lines to blow up bridges, derail trains, and send coded messages. Among them were many brave women; spies, couriers, and wireless operators, 
-           whose courage challenged gender norms and helped pave the way for greater recognition of women’s 
-           roles in war and society. These once-hidden stories of resilience and rebellion are finally stepping 
-           into the light, reminding us of the silent heroes who helped set Europe ablaze.
-     <br><br>
+        and the Six Triple Eight Battalion, but what about the Special
+        Operations Executive? During World War II, the SOE carried out some of the 
+        most daring and covert missions in British history. Tasked with sabotage, espionage, and 
+        aiding resistance movements in Nazi-occupied territories, these sgents worked behind 
+        enemy lines to blow up bridges, derail trains, and send coded messages. Among them were many brave women; spies, couriers, and wireless operators, 
+        whose courage challenged gender norms and helped pave the way for greater recognition of women’s 
+        roles in war and society. These once-hidden stories of resilience and rebellion are finally stepping 
+        into the light, reminding us of the silent heroes who helped set Europe ablaze.
+        <br><br>
         <ul>
-        <li>Total of SOE agents- 13,000, including 3,200 women</li>
-        <li>Number of active agents on the field- 470 at any given time</li> 
-        <li>Operations conducted- more than hundreds across Europe and Asia; with 470 agents sent into France mentioned in multiple sources.</li>
-        <li>Disbanded: 15 January 1946 (officially dissolved after WWII) </li>
-        <li>Total Duration: 5 years and 6 months of operation (1940–1946)</li> 
-        <li>Over 5,000 awards and medals given to SOE agents.</li>
-        <li>During disbandment, many SOE members joined SIS and MI6.</li> 
-        <li>Lost Agents: Out of approximately 3,200 field agents, around 25% were killed.</li> 
-        <li>Historical Records: Many SOE records were sealed until 2003, leaving much of their work classified for decades.</li>
-    </ul>
+            <li>Total of SOE agents- 13,000, including 3,200 women</li>
+            <li>Number of active agents on the field- 470 at any given time</li> 
+            <li>Operations conducted- more than hundreds across Europe and Asia; with 470 agents sent into France mentioned in multiple sources.</li>
+            <li>Disbanded: 15 January 1946 (officially dissolved after WWII) </li>
+            <li>Total Duration: 5 years and 6 months of operation (1940–1946)</li> 
+            <li>Over 5,000 awards and medals given to SOE agents.</li>
+            <li>During disbandment, many SOE members joined SIS and MI6.</li> 
+            <li>Lost Agents: Out of approximately 3,200 field agents, around 25% were killed.</li> 
+            <li>Historical Records: Many SOE records were sealed until 2003, leaving much of their work classified for decades.</li>
+        </ul>
     </b></div>
-    <br><br><br><br>  <br><br><br><br> <br><br><br><br>
+
+    <br><br><br><br><br><br><br><br>
 </body>
 </html>
