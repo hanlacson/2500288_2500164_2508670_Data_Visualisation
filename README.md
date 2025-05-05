@@ -35,6 +35,8 @@ Han’s Inspiration:
 * I also watch a lot of historical films that are based on real events and POC history
 
 ## URLs:
+GitHub repository: https://github.com/hanlacson/2500288_2500164_2508670_Data_Visualisation.git
+Website: http://127.0.0.1:5500/introduction.html
 
 
 ## Introduction Page: 
