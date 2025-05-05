@@ -29,7 +29,7 @@ Allyssa’s Inspiration:
 -Anne Frank, The Diary of a Young Girl (1947)
 
 Han’s Inspiration: 
--Six Triple Eight Postal Battalion - An all black woman military operative that successfully delivered all the post during WW2 during a point of low morale for the soldiers
+-Six Triple Eight Postal Battalion - An all black woman military operative that successfully delivered all the post during WW2 during a point of low morale for the soldiers - https://newsroom.woundedwarriorproject.org/The-Six-Triple-Eight-Proved-That-No-Role-Was-Too-Small-During-World-War-II
 -W. E. B. du Bois's Data Portraits : Visualizing Black America (Week 5 reading)
 -I also watch a lot of historical films that are based on real events and POC history
 
