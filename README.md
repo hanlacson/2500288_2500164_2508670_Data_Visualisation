@@ -11,6 +11,7 @@ Taking a feminist lens, this project not only uncovers the hidden history of the
 * Daniel: Lead researcher, coder- coded the agent profile page 
 
 ## Organisation & Communication: 
+We as a team were able to communicate throughout our project using many forms of social media to talk through challenges regarding coding or research, we then relied on each other's skills to conquer challenges and move ahead with the project. We came together and organised each other with roles revolving around our strengths and weaknesses and met up frequently in person to check on each other's progress and held many online meetings to further communicate the progress and advancements on our assignment.
 
 ## Challenges/ Concerns:
 
