@@ -1,19 +1,20 @@
 # The British Special Operations Executive in WW2
 
-## Overview:
+## Overview: 
 
 ## Team Roles:
-* Han Lacson:
-* Allyssa:
-* Daniel:
+* Han Lacson: Lead Coder, researcher yu
+* Allyssa: Lead visual graphic designer, coder and researcher
+* Daniel: Lead researcher, coder 
 
-## Organisation & Communication:
+## Organisation & Communication: 
 
 ## Challenges/ Concerns:
 
 ## Resources & Inspirations:
 
 ## URLs:
+
 
 ## Introduction Page: 
 ![alt text](<screenshots/SOE_Introduction_Page .png>)
