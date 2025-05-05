@@ -18,21 +18,21 @@ We as a team were able to communicate throughout our project using many forms of
 
 ## Resources & Inspirations:
 Daniel’s inspiration: 
--Some museums, such as the Imperial War Museum (IWM) in London, have collections of SOE-related artifacts and documents. These museums may have detailed biographical information about agents, their operations, and their locations.
--The Imperial War Museum website on SOE
+* Some museums, such as the Imperial War Museum (IWM) in London, have collections of SOE-related artifacts and documents. These museums may have detailed biographical information about agents, their operations, and their locations.
+* The Imperial War Museum website on SOE
 https://discovery.nationalarchives.gov.uk/details/a/A13530124
 
 Allyssa’s Inspiration: 
--W.E.B. du Bois's Data Portraits: Visualizing Black America (Week 5 reading)
--SOE in Burma- https://soeinburma.com/2017/08/27/of-mouse-and-men-soe-in-the-arakan-1945/
--National Army Museum on SOE (Website)- https://www.nam.ac.uk/explore/SOE
--Dunkirk (Movie, 2017)
--Anne Frank, The Diary of a Young Girl (1947)
+* W.E.B. du Bois's Data Portraits: Visualizing Black America (Week 5 reading)
+* SOE in Burma- https://soeinburma.com/2017/08/27/of-mouse-and-men-soe-in-the-arakan-1945/
+* National Army Museum on SOE (Website)- https://www.nam.ac.uk/explore/SOE
+* Dunkirk (Movie, 2017)
+* Anne Frank, The Diary of a Young Girl (1947)
 
 Han’s Inspiration: 
--Six Triple Eight Postal Battalion - An all black woman military operative that successfully delivered all the post during WW2 during a point of low morale for the soldiers - https://newsroom.woundedwarriorproject.org/The-Six-Triple-Eight-Proved-That-No-Role-Was-Too-Small-During-World-War-II
--W. E. B. du Bois's Data Portraits : Visualizing Black America (Week 5 reading)
--I also watch a lot of historical films that are based on real events and POC history
+* Six Triple Eight Postal Battalion - An all black woman military operative that successfully delivered all the post during WW2 during a point of low morale for the soldiers - https://newsroom.woundedwarriorproject.org/The-Six-Triple-Eight-Proved-That-No-Role-Was-Too-Small-During-World-War-II
+* W. E. B. du Bois's Data Portraits : Visualizing Black America (Week 5 reading)
+* I also watch a lot of historical films that are based on real events and POC history
 
 ## URLs:
 
