@@ -3,7 +3,7 @@
 ## Overview:
 
 ## Team Roles:
-* Han:
+* Han Lacson:
 * Allyssa:
 * Daniel:
 
