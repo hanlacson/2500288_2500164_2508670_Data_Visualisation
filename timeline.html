@@ -5,11 +5,12 @@
   <title>My Timeline</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    /* */
     * {
       box-sizing: border-box;
     }
 
-    body {
+    body {  /* the background and font sizes for the entire webpage */
         background-image: url("visuals/timelinebackgroundnew1.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -20,13 +21,13 @@
         font-size: 30px;      
     }
 
-    .timeline {
+    .timeline {  /* overall width of the timeline and centers it*/
       position: relative;
       max-width: 1200px;
       margin: 0 auto;
     }
 
-    .timeline::after {
+    .timeline::after {  /* properties of the vertical line in the center of the timeline */
       content: '';
       position: absolute;
       width: 6px;
@@ -37,7 +38,7 @@
       margin-left: -3px;
     }
 
-    .container {
+    .container { /* is the properties for the container/box for each event entry in the timeline and ensures the boxes are organised into a left and right pattern.*/
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -46,7 +47,7 @@
   font-size: 30px;
 }
 
-    .container::after {
+    .container::after { /* the timeline points throughout the vertical line*/
       content: '';
       position: absolute;
       width: 25px;
@@ -59,45 +60,23 @@
       z-index: 1;
     }
 
-    .left {
+    .left { /* ensures some of the timeline blocks stay on the left */
       left: 0;
     }
 
-    .right {
+    .right { /* ensures some of the timeline blocks stay on the right*/
       left: 50%;
     }
 
-    .left::before {
-      content: " ";
-      height: 0;
-      position: absolute;
-      top: 22px;
-      width: 0;
-      z-index: 1;
-      right: 30px;
-      border: medium solid white;
-      border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent white;
-    }
-
-    .right::before {
-      content: " ";
-      height: 0;
-      position: absolute;
-      top: 22px;
-      width: 0;
-      z-index: 1;
-      left: 30px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-    }
-
-    .right::after {
+    .right::after { /*ensures that the right hand points stay centered*/ 
       left: -16px;
     }
 
-    .content {
+    .left::after { /*ensures that the left hand points stay centered*/ 
+      right: -16px;
+    }
+
+    .content { /* the properties and characteristics of the boxes that contain the timeline event contents*/ 
       padding: 20px 30px;
       background-color: white;
       position: relative;
@@ -105,59 +84,29 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
 
-    @media screen and (max-width: 600px) {
-      .timeline::after {
-        left: 31px;
-      }
-
-      .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-      }
-
-      .container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-      }
-
-      .left::after,
-      .right::after {
-        left: 15px;
-      }
-
-      .right {
-        left: 0%;
-      }
-
-      .back-btn { 
+      .back-btn { /* the back button on the top left corner of the page*/
         position: fixed;
         top: 20px;
         left: 20px;
       }
 
-      .back-img {
+      .back-img { /* the sizing for the back button image */
   max-width: 300px;
   width: 300px !important;
   height: auto !important;
 }
 
-    }
   </style>
 </head>
 <body>
 
-  <a href="introduction.html" class="back-btn">
+  <a href="introduction.html" class="back-btn"> /* the back button to return to the introduction page including the image of the back button */
     <img src="visuals/backbutton(2).png" alt="Back" class="back-img">
   </a>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> /* breaks to move the content down */
   
-    
-
-    <div class="timeline">
+    <div class="timeline"> /* the timeline boxes and it's contents, which would be the text and images*/
       <div class="container left">
         <div class="content">
           <h2>22 July 1940</h2>
