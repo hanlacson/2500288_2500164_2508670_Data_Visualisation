@@ -1,4 +1,14 @@
-# Collaborative_Final_Project
+# The British Special Operations Executive in WW2
+
+## Overview:
+
+## Team Roles:
+
+## Organisation & Communication:
+
+## Challenges/ Concerns:
+
+## Resources & Inspirations:
 
 ## Introduction Page: 
 ![alt text](<screenshots/SOE_Introduction_Page .png>)
@@ -10,3 +20,4 @@
 ![alt text](screenshots/timelinepage.png)
 
 ## Agents and Operations Page
+
