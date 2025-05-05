@@ -3,6 +3,9 @@
 ## Overview:
 
 ## Team Roles:
+* Han:
+* Allyssa:
+* Daniel:
 
 ## Organisation & Communication:
 
