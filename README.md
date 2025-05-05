@@ -47,4 +47,4 @@ Han’s Inspiration:
 ![alt text](screenshots/timelinepage.png)
 
 ## Agents and Operations Page
-
+![alt text](screenshots/Screenshot%202025-05-05%20at%2022.53.44.png)
