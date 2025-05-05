@@ -14,6 +14,7 @@ Taking a feminist lens, this project not only uncovers the hidden history of the
 
 ## Challenges/ Concerns:
 
+
 ## Resources & Inspirations:
 Daniel’s inspiration: 
 -Some museums, such as the Imperial War Museum (IWM) in London, have collections of SOE-related artifacts and documents. These museums may have detailed biographical information about agents, their operations, and their locations.
